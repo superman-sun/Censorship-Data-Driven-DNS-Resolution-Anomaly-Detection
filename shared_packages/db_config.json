@@ -1,0 +1,12 @@
+{
+    "test_ali_lc": {
+        "host": "your own server ip",
+        "user": "root",
+        "password": "pwd",
+        "db": "detect_dns_lc",
+        "port": 36868,
+        "charset": "utf8"
+    },
+    "task_id": 1
+}
+

@@ -3,7 +3,7 @@ This project utilizes bidirectional active probing to gather domain censorship d
 Additionally, employing stacked ensemble learning, a DNS resolution anomaly detection model is developed.
 
 
-###1. Active Detection of National Domain Name Censorship Data
+### 1. Active Detection of National Domain Name Censorship Data
 The project offers two detection tools for actively probing national domain name censorship data:
 
 * a. If there is a vantage point within the country, censorship data can be obtained via active DNS resolution within the country's network. 
@@ -14,7 +14,7 @@ The corresponding tool code is: *__get_censor_domain_resolve.py__*;
 measurement points provided by the [RIPE measuring platform](https://atlas.ripe.net/) can be utilized to achieve this.
 The corresponding tool code is: *__ripe_measurement_aip.py__*;
 
-###2. Active Detection of National Domain Name Censorship Data
+### 2. Active Detection of National Domain Name Censorship Data
 
 
 ##有问题反馈

@@ -18,7 +18,7 @@ The corresponding tool code is: *__ripe_measurement_aip.py__*;
 * a. In our ensemble learning algorithm model, the first layer of base models includes: KNN, Logistic Regression (LR),
 Support Vector Machine (SVM), Random Forest (RF), AdaBoost Classifier, and ExtraTrees Classifier. In the second-level model, we selected the Boosted Tree Learning Model, XGBoost, as our meta-classifier. Specific code implementation: *__ml_extract_features.py__*.
 
-* b. The source data we provide includes some domain name resolution raw data (8__2023_08_24_china_censor_resolution.zip__*) and some refined feature data (*__features.csv__*).
+* b. The source data we provide includes some domain name resolution raw data *__2023_08_24_china_censor_resolution.zip__*) and some refined feature data (*__features.csv__*).
 If you need more data, you can contact us via email.
 
 ### 3. Software Configuration

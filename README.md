@@ -18,7 +18,14 @@ The corresponding tool code is: *__ripe_measurement_aip.py__*;
 * a. In our ensemble learning algorithm model, the first layer of base models includes: KNN, Logistic Regression (LR),
 Support Vector Machine (SVM), Random Forest (RF), AdaBoost Classifier, and ExtraTrees Classifier. In the second-level model, we selected the Boosted Tree Learning Model, XGBoost, as our meta-classifier. Specific code implementation: *__ml_extract_features.py__*.
 
-* b. 
+* b. The source data we provide includes some domain name resolution raw data () and some refined feature data ().
+If you need more data, you can contact us via email.
+
+### 3. Software Configuration
+For the project to carry out proactive domain name detection and resolution, it is necessary to use different measurement points in multiple network spaces. 
+Therefore, to improve detection efficiency, *__RabbitMQ__* queues have been utilized to implement distributed detection. Consequently, it is necessary to set up 
+RabbitMQ and the storage database MySql.
+
 
 
 ### Issue Feedback
